@@ -3,12 +3,7 @@ from repositories.chamado_repository import ChamadoRepository
 
 
 class UsuarioService:
-    """
-    Cada método aqui retorna (resultado, erro):
-      - erro preenchido  -> regra de negócio violada (controller responde 400)
-      - resultado None e erro None -> recurso não encontrado (controller responde 404)
-      - resultado preenchido e erro None -> sucesso
-    """
+    
 
     @staticmethod
     def consulta_usuarios():
