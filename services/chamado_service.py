@@ -3,7 +3,7 @@ from repositories.usuario_repository import UsuarioRepository
 
 PRIORIDADES_VALIDAS = ("Baixa", "Média", "Alta")
 
-# Coloquei especificação de prioridade alta pois nn sabia qual tipo de prioridade estafva especifica na atividade
+
 
 
 PRIORIDADE_LIMITADA = "Alta"
@@ -11,7 +11,7 @@ LIMITE_ABERTOS = 5
 
 
 class ChamadoService:
-    """Mesmo protocolo (resultado, erro) do UsuarioService."""
+   
 
     @staticmethod
     def _serializa(chamado):
